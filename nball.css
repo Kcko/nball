@@ -1,0 +1,370 @@
+/********** Main Page Layout **********/
+body {
+
+	background-image: url(bgtile.gif);
+	margin: 0px;
+	padding: 0px;
+}
+UL#menu {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	LIST-STYLE-IMAGE: none;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-TOP: 0px;
+	BORDER-BOTTOM: #cce599 1px solid;
+	LIST-STYLE-TYPE: none;
+	width: 130px;
+	BACKGROUND-COLOR: #193682;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 11px;
+	MARGIN-LEFT: 5px;
+
+}
+UL#menu LI {
+	PADDING-RIGHT: 0px;
+	BORDER-TOP: 0px;
+	BORDER-BOTTOM: #fff 1px solid;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-TOP: 0px;
+	FONT-WEIGHT: bold;
+}
+UL#menu A {
+	DISPLAY: block;
+	PADDING-LEFT: 4px;
+	FONT-SIZE: 11px;
+	MARGIN: 0px;
+	COLOR: #FFF;
+	PADDING-TOP:4px;
+	padding-bottom: 4px;
+	BACKGROUND-REPEAT: no-repeat;
+	text-decoration: none;
+
+}
+UL#menu A.active {
+	DISPLAY: block;
+	PADDING-LEFT: 3px;
+	FONT-SIZE: 11px;
+	MARGIN: 0px;
+	COLOR: #000;
+	BACKGROUND-REPEAT: no-repeat;
+}
+UL#menu A SPAN {
+	COLOR: #d6ebad
+}
+UL#menu A:hover {
+	COLOR: #FF0000;
+	TEXT-DECORATION: none;
+}
+UL#menu OL {
+	PADDING-RIGHT: 0px;
+/*	DISPLAY: none;*/
+	PADDING-LEFT: 0px;
+	LIST-STYLE-IMAGE: none;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-TOP: 0px;
+	LIST-STYLE-TYPE: none;
+	BACKGROUND-COLOR: #527cba;
+}
+UL#menu OL A:hover {
+	color:#f7cf31;
+}
+
+UL#menu OL LI {
+	TEXT-TRANSFORM: none;
+	BORDER-TOP-STYLE: none;
+	BORDER-RIGHT-STYLE: none;
+	BORDER-LEFT-STYLE: none;
+	BORDER-BOTTOM-STYLE: none;
+}
+UL#menu OL LI A {
+	PADDING-LEFT: 10px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 0px 0px 0px 0px;
+	BORDER-TOP: 1px solid #FFF;
+	PADDING-TOP: 1px;
+	BORDER-RIGHT-STYLE: none;
+	BORDER-LEFT-STYLE: none;
+	BORDER-BOTTOM-STYLE: none;
+	FONT-WEIGHT: normal;
+}
+form#teambox {
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin: 0px;
+}
+form#teambox select {
+	FONT: 10px verdana, arial, sans-serif;
+	WIDTH: 120px;
+	BACKGROUND-COLOR: #cccccc;
+	TEXT-DECORATION: none;
+}
+#box {
+	background-color: #000000;	
+	width: 130px;
+	background-image: url(leftborder_tile.gif);
+	float: left;
+}
+
+#blackspacer {
+	background-color: #000000;
+	margin-top: 0px;
+	padding-top: 5px;
+	width: 135px;
+	position: absolute;
+}
+
+#topheading {
+	width: 685px;
+	border: 0px solid #000000;
+	background-color: #000000;
+	background-image: url(titletab_subindex_right.jpg);
+	text-align: right;
+	height: 20px;
+	padding-right: 65px;
+	padding-top: 0px;
+	margin: 0px;
+	background-repeat: no-repeat;
+	background-position: right;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #ffffff;
+	FONT-FAMILY: Arial;
+	text-transform: uppercase;
+	vertical-align: middle;
+	
+}
+#contentbox {
+	width: 610px;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	float: right;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+
+#mainbox {
+	width: 750px;
+}
+
+body#viewStandings #m1 { display: block; }
+body#viewPlayoffs #m1 { display: block; }
+body#viewPlayerList #m2 { display: block; }
+body#viewPlayer #m2 { display: block; }
+body#viewStats #m3 { display: block; }
+body#viewEffRecap #m3 { display: block; }
+body#viewFullSchedule #m4 { display: block; }
+body#viewAwards #m5 { display: block; }
+
+.other {background-color:#cccccc;}
+.secHeader{background-color:#003399;color:white;text-align:center;font-size:12px}
+.photo{margin-left:5px;}
+.statText{background-color:#cccccc;color: #000000;font-family:arial;font-size:12px;text-align:center;}
+.statTextW{color: #000000;font-family:arial;font-size:12px;text-align:center;}
+div.statTextLAM{color: #000000;font-family:arial;font-size:12px;text-align:center;}
+.statTextLarge{color: #000000;font-family:arial;font-size:16px;text-align:center;}
+.statNumLarge{color: #000000;font-family:arial;font-size:36px;text-align:center;}
+
+
+.gameBoxLeft {
+	width: 290px;
+	border: 1px solid #527cba;
+	position: inherit;
+	float: left;	
+	margin: 1px;
+	padding: 5px;
+}
+.gameBoxRight {
+	width: 290px;
+	border: 1px solid #527cba;
+	position: inherit;
+	float: right;	
+	margin: 1px;
+	padding: 5px;
+}
+#teamLeft {
+	position: inherit;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+#teamRight {
+	position: inherit;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+#efficiencyRoundRecap {
+	position: inherit;
+	float: left;
+}
+
+
+#teamImageLeft {
+	position: inherit;
+	border: 0px;
+	float: left;
+	margin: 0px;
+	padding-bottom: 2px;
+	width: 139px;
+	text-align: center;
+	height: 80px;
+}
+#teamImageRight {
+	position: inherit;
+	border: 0px;
+	float: right;
+	margin: 0px;
+	padding-bottom: 2px;
+	width: 139px;
+	text-align: center;
+	height: 80px;	
+}
+
+#homeTeamLogo {
+	position: inherit;
+	width:27%;
+	float:left;
+	text-align: center;	
+}
+
+#gameStatsTable {
+	position: inherit;
+	width:45%;
+	float:left;
+	margin-bottom: 20px;
+}
+
+#awayTeamLogo {
+	position: inherit;
+	width:27%;
+	float:left;
+	text-align: center;
+}
+
+#playerEff {
+	float: right;
+
+}
+
+/********** Everything Else **********/
+
+DIV.cBTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN: 5px 10px; COLOR: #ffffff; FONT-FAMILY: Arial; BACKGROUND-COLOR: #003399
+}
+
+TD.cBSide {
+	COLOR: #ffffff; BACKGROUND-COLOR: #003399
+}
+TD.cBBottom {
+	COLOR: #ffffff; BACKGROUND-COLOR: #003399
+}
+TD.gSGSectionColumnHeadingsStandings {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; FONT-FAMILY: verdana, arial, helvetica; BACKGROUND-COLOR: #003399
+}
+TD.gSGSectionColumnHeadingsStatsGrid {
+	FONT-SIZE: 11px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; BACKGROUND-COLOR: #527cba
+}
+TD.gSGRowEvenStatsGrid {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffffff
+}
+TD.gSGRowOddStatsGrid {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial; BACKGROUND-COLOR: #cccccc
+}
+A {
+	FONT-SIZE: 11px; FONT-FAMILY: Arial
+}
+TD {
+	FONT-SIZE: 11px; FONT-FAMILY: Arial
+}
+DIV {
+	FONT-SIZE: 11px; FONT-FAMILY: Arial
+}
+TD.gSGSectionTitle {
+	FONT-SIZE: 12px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; BACKGROUND-COLOR: #003399
+}
+DIV.gSGSectionTitle {
+	MARGIN-TOP: 2px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 2px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; BACKGROUND-COLOR: #003399
+}
+TD.gSGSectionColumnHeadings {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; TEXT-TRANSFORM: uppercase; FONT-FAMILY: verdana,arial; BACKGROUND-COLOR: #cccccc
+}
+TD.gSGRowEvenStatsGrid {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffffff
+}
+TD.gSGRowEvenStatsGridOne {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial; BACKGROUND-COLOR: #cccccc
+}
+DIV.gSGSectionTitleStatsGridOne {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; BACKGROUND-COLOR: #193682
+}
+TD.gSGSectionTitleStatsGridOne {
+	TEXT-TRANSFORM: uppercase; COLOR: #ffffff; BACKGROUND-COLOR: #193682
+}
+.liveScoresLink {
+	FONT-SIZE: 11px; COLOR: #193682; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+TD.gSGSectionColumnHeadingsStatsGridOne {
+	FONT-SIZE: 11px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; BACKGROUND-COLOR: #527cba
+}
+TD.gSGLinkStatsGridOne {
+	FONT-SIZE: 11px; COLOR: #ffffff; BACKGROUND-COLOR: #527cba
+}
+A.tNBLinkPlayerNav {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+DIV.playerInfoStatsPlayerInfoBorders {
+	MARGIN-TOP: 2px; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+SPAN.playerInfoValuePlayerInfoBorders {
+	MARGIN-TOP: 2px; FONT-SIZE: 11px; COLOR: #193682; FONT-FAMILY: Arial
+}
+.playerInfoValuePlayerInfoBordersLink {
+	MARGIN-TOP: 2px; FONT-SIZE: 10px; COLOR: #193682; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+DIV.gSGSectionTitleStatsGrid {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; BACKGROUND-COLOR: #193682
+}
+TD.gSGSectionTitleStatsGrid {
+	TEXT-TRANSFORM: uppercase; COLOR: #ffffff; BACKGROUND-COLOR: #193682
+}
+DIV.cBTitlePlayerInfoPlayerNotes {
+	MARGIN-TOP: 3px; FONT-WEIGHT: bold; MARGIN-LEFT: 7px; COLOR: #ffffff; BACKGROUND-COLOR: #193682
+}
+TD.cBTopPlayerInfoPlayerNotes {
+	COLOR: #ffffff; BACKGROUND-COLOR: #193682
+}
+SELECT {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana,Helvetica,Arial,sans-serif
+}
+DIV.gSGSectionTitleStandings {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; TEXT-TRANSFORM: uppercase; COLOR: #003399
+}
+.confHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: arial
+}
+.confTextEast {
+	FONT-SIZE: 11px; COLOR: #214299; FONT-FAMILY: arial; TEXT-ALIGN: center
+}
+.confTextWest {
+	FONT-SIZE: 11px; COLOR: #6c6c6c; FONT-FAMILY: arial; TEXT-ALIGN: center
+}
+A.playoffs {
+	COLOR: #b10041
+}
+DIV.statsFinderBackground {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; BACKGROUND-COLOR: #cccccc
+}
+TD.cBTop {
+	FONT-SIZE: 12px; COLOR: #ffffff; BACKGROUND-COLOR: #003399
+}
+.cbComp {
+	BACKGROUND-COLOR: #ffffff
+}
